@@ -1,16 +1,22 @@
+import React from 'react';
+import FeedbackApp from './FeedbackApp';
+import './styles.css';
+
 export const App = () => {
   return (
     <div
       style={{
         height: '100vh',
         display: 'flex',
-        justifyContent: 'center',
+        flexDirection: 'column',
         alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
+        // fontSize: 40,
+        color: '#010101',
       }}
     >
-      React homework template
+      <FeedbackApp />
     </div>
   );
 };
+
+export default App;
